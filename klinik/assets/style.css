@@ -1,0 +1,53 @@
+body {
+    padding-top: 56px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.service-card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.booking-form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+}
+
+.admin-sidebar {
+    min-height: calc(100vh - 56px);
+    background: #343a40;
+    padding: 20px 0;
+}
+
+.admin-content {
+    padding: 20px;
+}
+
+.stat-card {
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
